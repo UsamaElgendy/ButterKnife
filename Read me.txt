@@ -1,0 +1,13 @@
+- Url = "https://jakewharton.github.io/butterknife/"
+
+GRADLE
+
+	implementation 'com.jakewharton:butterknife:(insert latest version)'
+	annotationProcessor 'com.jakewharton:butterknife-compiler:(insert latest version)'
+
+
+important to import compile java 8 in android {}
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
